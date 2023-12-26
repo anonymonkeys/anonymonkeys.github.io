@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Check it!"
+date:   2016-08-14 01:47:42 +0700
+categories: games
+thumbnail: /assets/images/pexels-pixabay-163064.jpg
+android_download: https://play.google.com/store/apps/dev?id=7658057387855534385
+---
