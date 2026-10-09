@@ -70,7 +70,7 @@ Those partners usually collect data via their own tools (Software Development Ki
 
 # Data deletion requests
 
-To delete user data collected by “AnonyMonkeys”, please reach out to anonymonkeys@gmail.com.
+To delete user data collected by “AnonyMonkeys”, please reach out to hello@anonymonkeys.com.
 
 If you also want to request the deletion of the data that may have been collected about you or your device by our third-party partners that are acting as independent data controllers, you will find below the contact for each partner and the link to the relevant section of their privacy policies:
 
@@ -157,4 +157,4 @@ If there are any questions regarding this privacy policy you may contact us usin
 
 anonymonkeys.com
 
-anonymonkeys@gmail.com
+hello@anonymonkeys.com

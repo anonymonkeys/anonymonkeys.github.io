@@ -4,24 +4,33 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Our Games</h1>
+  <section class="about" id="about">
+    <h1 class="page-heading">About us</h1>
+    <p class="lead">AnonyMonkeys is a small indie team making simple, fun mobile games and apps for Android and iOS. We build things that are easy to pick up and satisfying to play, from puzzles and casual runners to idle and action games.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-		<div class="game-thumbnail"><img src="{{ post.thumbnail | pretend: site.baseurl }}"/></div>
-       
-		<div class="meta-info">
-			<h2>
-			  <a class="post-link" href="#">{{ post.title }}</a>
-			</h2>
-			<div class="button android"><a class="post-link" href="{{ post.android_download | prepend: site.baseurl }}">Android</a></div>
-			<div class="button ios"><a class="post-link" href="{{ post.ios_download | prepend: site.baseurl }}">iOS</a></div>
-		</div>
+    <ul class="values">
+      <li><strong>Simple</strong> Easy to learn, no manual needed.</li>
+      <li><strong>Fun</strong> Quick, satisfying play for any moment.</li>
+      <li><strong>Polished</strong> Made with care, updated with your feedback.</li>
+    </ul>
+  </section>
+
+  <section class="games" id="games">
+    <h1 class="page-heading">Our Games</h1>
+
+    <ul class="game-grid">
+      {% for game in site.data.games %}
+      <li class="game-card">
+        <img class="game-icon" src="{{ game.icon | prepend: site.baseurl }}" alt="{{ game.title }}" loading="lazy" width="96" height="96">
+        <h2 class="game-title">{{ game.title }}</h2>
+        <p class="game-tagline">{{ game.tagline }}</p>
+        <div class="game-links">
+          {% if game.android %}<a href="{{ game.android }}" target="_blank" rel="noopener">Google Play</a>{% endif %}
+          {% if game.ios %}<a href="{{ game.ios }}" target="_blank" rel="noopener">App Store</a>{% endif %}
+        </div>
       </li>
-    {% endfor %}
-  </ul>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+      {% endfor %}
+    </ul>
+  </section>
 
 </div>

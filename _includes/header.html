@@ -12,7 +12,7 @@
       </a>
 
       <div class="trigger">
-	  <a class="page-link" href="{{ site.url }}">Home</a>
+	  <a class="page-link" href="{{ "/" | prepend: site.baseurl }}">Home</a>
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
@@ -22,8 +22,13 @@
     </nav>
 
 	<div class="info">
-		<a class="site-title"  href="{{ site.url }}">AnonyMonkeys</a>
-		<div class="button"><a href="https://play.google.com/store/apps/dev?id=7658057387855534385">Follow us!</a></div>
+		<a class="site-title" href="{{ "/" | prepend: site.baseurl }}">AnonyMonkeys</a>
+		<p class="tagline">Simple studio, simple games.</p>
+		<div class="actions">
+			<div class="button"><a href="{{ "/" | prepend: site.baseurl }}#games">Our Games</a></div>
+			<div class="button"><a href="https://play.google.com/store/apps/dev?id=7658057387855534385" target="_blank" rel="noopener">Google Play</a></div>
+			<div class="button"><a href="https://apps.apple.com/us/developer/vinh-luu/id1258720654" target="_blank" rel="noopener">App Store</a></div>
+		</div>
 	</div>
   </div>
 

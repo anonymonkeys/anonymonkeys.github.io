@@ -7,36 +7,22 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-		Email
-          <li><a href="mailto:{{ site.email }}">Contact us</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="https://play.google.com/store/apps/dev?id=7658057387855534385" target="_blank" rel="noopener">Google Play</a></li>
+          <li><a href="https://apps.apple.com/us/developer/vinh-luu/id1258720654" target="_blank" rel="noopener">App Store</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-		Soical
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-		  
-		   {% if site.facebook_username %}
-          <li>
-            {% include icon-facebook.html username=site.facebook_username %}
-          </li>
-          {% endif %}
+        <ul class="contact-list">
+          <li><a href="{{ "/privacy-policy/" | prepend: site.baseurl }}">Privacy Policy</a></li>
+          <li><a href="{{ "/terms-of-use/" | prepend: site.baseurl }}">Terms of Use</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
       </div>
     </div>
 
