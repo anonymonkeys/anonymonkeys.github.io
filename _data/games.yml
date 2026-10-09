@@ -1,51 +1,51 @@
-- title: Puzzle Mood
-  tagline: Relaxing photo mood tracker
+- title: "Puzzle Mood"
+  tagline: "Relaxing photo mood tracker"
   icon: /assets/images/games/puzzle-mood.png
   android: https://play.google.com/store/apps/details?id=com.anonymonkeys.puzzlemood
   ios: https://apps.apple.com/us/app/puzzle-mood-emotion-tracker/id6765916500
 
-- title: SubNotify
-  tagline: Unlimited subscription tracker
+- title: "SubNotify"
+  tagline: "Unlimited subscription tracker"
   icon: /assets/images/games/subnotify.png
   android: https://play.google.com/store/apps/details?id=com.tinydev.subtrackr
   ios: https://apps.apple.com/us/app/subnotify-unlimited/id6754670105
 
-- title: Neon: Shoot n Merge
-  tagline: A new style of number merge and match-3 puzzle
+- title: "Neon: Shoot n Merge"
+  tagline: "A new style of number merge and match-3 puzzle"
   icon: /assets/images/games/neon-shoot-merge.png
   android: https://play.google.com/store/apps/details?id=graycat.shoot.merge.neon
 
-- title: Cat Battle: Spinning Sword
-  tagline: Collect blades and spin to slay your enemies
+- title: "Cat Battle: Spinning Sword"
+  tagline: "Collect blades and spin to slay your enemies"
   icon: /assets/images/games/cat-battle.png
   android: https://play.google.com/store/apps/details?id=com.anonymonkeys.swordio
 
-- title: Wood Nuts & Bolts
-  tagline: A relaxing screw puzzle
+- title: "Wood Nuts & Bolts"
+  tagline: "A relaxing screw puzzle"
   icon: /assets/images/games/wood-nuts-bolts.png
   android: https://play.google.com/store/apps/details?id=com.anonymonkeys.bolts.puzzle
 
-- title: Duck Flow
-  tagline: Satisfying pixel egg blasting
+- title: "Duck Flow"
+  tagline: "Satisfying pixel egg blasting"
   icon: /assets/images/games/duck-flow.png
   android: https://play.google.com/store/apps/details?id=com.anonymonkeys.colorloop
 
-- title: Survivor Cat
-  tagline: Be a hero cat in an epic survival adventure
+- title: "Survivor Cat"
+  tagline: "Be a hero cat in an epic survival adventure"
   icon: /assets/images/games/survivor-cat.jpg
   ios: https://apps.apple.com/us/app/survivor-cat-chicken-invaders/id6462824211
 
-- title: Idle Sushi Restaurant 3D
-  tagline: Sushi restaurant management
+- title: "Idle Sushi Restaurant 3D"
+  tagline: "Sushi restaurant management"
   icon: /assets/images/games/idle-sushi.jpg
   ios: https://apps.apple.com/us/app/idle-sushi-restaurant-3d/id6444590407
 
-- title: Racoon Racing 3D
-  tagline: Hoverboard racing with racoons
+- title: "Racoon Racing 3D"
+  tagline: "Hoverboard racing with racoons"
   icon: /assets/images/games/racoon-racing.jpg
   ios: https://apps.apple.com/us/app/racoon-racing-3d/id1627876544
 
-- title: Box Stack Run
-  tagline: Collect boxes and deliver them
+- title: "Box Stack Run"
+  tagline: "Collect boxes and deliver them"
   icon: /assets/images/games/box-stack-run.jpg
   ios: https://apps.apple.com/us/app/box-stack-run/id1614859936
